@@ -340,6 +340,9 @@
   details.specs li{border-top:1px dashed var(--line);padding-top:6px}
 
   footer{text-align:center;font-size:11.5px;color:var(--muted);padding:6px 18px 34px;line-height:1.7}
+  footer .visits{display:flex;justify-content:center;align-items:center;margin-top:11px}
+  footer .visits img{display:block;height:20px;width:auto;border-radius:4px;box-shadow:0 1px 3px rgba(58,104,190,.12);opacity:.92;transition:opacity .18s ease}
+  footer .visits:hover img{opacity:1}
 
   @media (max-width:1000px){
     .layout{grid-template-columns:1fr}
@@ -537,6 +540,7 @@
 <footer>
   Made by <b>방구석 작업실</b> · 이미지는 브라우저 안에서만 처리되고 어디로도 전송되지 않습니다.<br>
   아이패드에서는 ZIP을 받은 뒤 <b>파일</b> 앱 → <b>다운로드</b> 폴더에서 확인하세요.
+  <span class="visits"><img src="https://hits.sh/nal-365.github.io/Emotion-splitter.svg?label=%EB%B0%A9%EB%AC%B8%EC%9E%90&amp;color=4a7dff&amp;labelColor=ebf2ff&amp;style=flat-square" alt="방문자 수" title="방문자 수" referrerpolicy="no-referrer" onerror="this.parentNode.style.display='none'"></span>
 </footer>
 
 <noscript>
